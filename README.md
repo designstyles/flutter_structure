@@ -11,19 +11,19 @@ It covers:
 
 # People / Projects I have learnt from:
 Some really good projects / people I have learnt from are:
-1 - Filled Stacks
+# 1 - Filled Stacks
     - A South African developer who has some really good tutorials on getting some foundational work done nicely. 
     - I specfically like his stacked_services package. I use it for appiplcation navigation. 
-    - https://www.filledstacks.com/
+    - https://www.filledstacks.com
     - https://pub.dev/publishers/filledstacks.com/packages
 
-2 - Google Developer Student Club PoliMi
+# 2 - Google Developer Student Club PoliMi
     - A group of developers who have some great talks on various topics.
     - I specifically enjoyed the talk regarding seperation of models/services/repositories. 
       I took what they did, and slightly modified it for practices that suit my coding style better. But it was a good starting point.
     - https://www.youtube.com/watch?v=WX9fmKlH5cQ&ab_channel=GoogleDeveloperStudentClubPoliMi
     
-3 - Some really great packages that I use: 
+# 3 - Some really great packages that I use: 
    - bloc / flutter_bloc 
      - Used for state management. Generally used with equatable, however I dont always use it with equatable
      - https://pub.dev/packages/bloc
