@@ -1,0 +1,17 @@
+name: services
+description: A package for services without state
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  get_storage: ^2.1.1
+  loggy: ^2.0.1
+  models:
+    path: ../models
+  
+
+dev_dependencies:
+  very_good_analysis: ^3.0.1

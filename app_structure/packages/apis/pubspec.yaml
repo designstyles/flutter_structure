@@ -1,0 +1,16 @@
+name: apis
+description: A package for external access to defined apis
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  models:
+    path: ../models
+  services:
+    path: ../services
+    
+dev_dependencies:
+  very_good_analysis: ^3.0.1
