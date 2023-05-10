@@ -7,14 +7,30 @@ environment:
   sdk: '>=2.18.4 <3.0.0'
 
 dependencies:
+  any_loading: ^0.0.1+2
+  bloc: ^8.1.1
+  double_back_to_close: ^2.0.0
+  flow_builder: ^0.0.9
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  flutter_login: ^4.1.1
+  get_it: ^7.6.0
+  get_storage: ^2.0.3
+  loggy: ^2.0.1  
+  models:
+    path: packages/models
+  repositories:
+    path: packages/repositories
+  services:
+    path: packages/services
+  stacked_services: ^1.0.2
+  theme_provider: ^0.5.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  very_good_analysis: ^3.0.1
 
 flutter:
   uses-material-design: true

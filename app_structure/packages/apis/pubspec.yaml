@@ -7,6 +7,10 @@ environment:
   sdk: '>=2.18.4 <3.0.0'
 
 dependencies:
+  dio: ^5.1.2
+  dio_cache_interceptor: ^3.4.2
+  flutter_loggy_dio: ^3.0.1
+  http: ^0.13.4 
   models:
     path: ../models
   services:

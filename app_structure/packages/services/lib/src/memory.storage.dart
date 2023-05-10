@@ -25,4 +25,9 @@ class MemoryStorageService {
     }
     return null;
   }
+
+  Future<void> clearGetStorage() async {
+    final box = GetStorage(AppConsts.appStorageKeys.storageBoxKey);
+    await box.erase();
+  }
 }
