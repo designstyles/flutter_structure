@@ -8,11 +8,14 @@ This repository is a base level, fully functioning flutter application.
 2) Mock API to show how to go about ensuring the front-end use cases are not dependant on a functioning API.
 
 3) Application Architecture and References
-    - Packages 
-	 -- API
-	 -- Models
-	 -- Repositories
-	 -- Services
+    - Main
+    	- Bootstrap to App
+    	- All frontend logic  [cubits/state/views]
+    - Packages
+    	- API
+    	- Models
+    	- Repositories
+    	- Services
 	 
 4) Navigation within the application #WITHOUT context being required
 5) Global app wrappers (theme provider , any loading)
