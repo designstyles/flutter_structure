@@ -26,18 +26,18 @@ class _View extends StatelessWidget {
       hideProvidersTitle: true,
       loginAfterSignUp: false,
       userValidator: (value) {
-        // if (value!.isEmpty) {
-        //   return 'Email is required';
-        // }
-        // if (!value.contains('@')) {
-        //   return 'Email is not formatted correctly';
-        // }
+         if (value!.isEmpty) {
+           return 'Email is required';
+         }
+         if (!value.contains('@')) {
+           return 'Email is not formatted correctly';
+         }
         return null;
       },
       passwordValidator: (value) {
-        // if (value!.isEmpty) {
-        //   return 'Password is required';
-        // }
+         if (value!.isEmpty) {
+           return 'Password is required';
+         }
         return null;
       },
       onLogin: cubit.login,
