@@ -17,7 +17,7 @@ This repository is a base level, fully functioning flutter application.
     	- Repositories
     	- Services
 	 
-4) Navigation within the application #WITHOUT context being required
+4) Navigation within the application WITHOUT context being required
 5) Global app wrappers (theme provider , any loading)
 6) Authentication and UX update based on result
 7) Generic FutureBuilder scaffold 
