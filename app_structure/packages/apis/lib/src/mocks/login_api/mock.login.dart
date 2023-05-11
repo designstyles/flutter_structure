@@ -12,7 +12,7 @@ class MockLoginApiEndpoints {
       final response = await MockResponses().getLoginResponse();
       AppLogger.logInfo(response);
       return ApiAuthentication.fromMap(
-        response.result as Map<String, dynamic>,
+        response.result.first as Map<String, dynamic>,
       )!;
     } on DioError catch (e) {
       throw BaseApiProvider.handleError(e);

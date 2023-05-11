@@ -23,8 +23,8 @@ class LoginCubit extends AppBaseCubit {
   Future<String?> login(LoginData requestData) async {
     try {
       final _ = await _loginRepository.login(
-        email: 'requestData.name',
-        password: 'requestData.password',
+        email: requestData.name,
+        password: requestData.password,
       );
       return null;
     } on AppBaseException catch (ex) {

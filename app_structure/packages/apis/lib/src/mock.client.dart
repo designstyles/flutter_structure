@@ -1,8 +1,8 @@
 import 'package:apis/src/mocks/login_api/mock.login.dart';
 import 'package:models/models.dart';
 
-class MockClient {
-  const MockClient();
+class MockApi {
+  const MockApi();
   Future<ApiAuthentication> login({
     required String email,
     required String password,

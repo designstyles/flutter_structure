@@ -4,21 +4,18 @@ abstract class AbsResponse {
   int statusCode = 200;
   String error = '';
   DateTime date = DateTime.now();
-  Map<dynamic, dynamic> result = {};
+  List<dynamic> result = <dynamic>[];
 }
 
 class AppResponse extends AbsResponse {
+  factory AppResponse.fromMap(Map<String, dynamic> json) =>
+      AppResponse._createEmptyItem(
+        resultValue:
+            json['Result'] != null ? json['Result'] as List<dynamic> : [],
+      );
   AppResponse._createEmptyItem({
-    required Map<dynamic, dynamic> resultValue,
+    required List<dynamic> resultValue,
   }) {
     result = resultValue;
-  }
-  static Future<AppResponse> createEmptyItem({
-    required Map<dynamic, dynamic> resultValue,
-  }) async {
-    final component = AppResponse._createEmptyItem(
-      resultValue: resultValue,
-    );
-    return component;
   }
 }
